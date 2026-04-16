@@ -4,6 +4,7 @@ import MainLayout from "../layout/MainLayout";
 import Details from "../components/details/Details";
 import TimeLine from "../pages/TimeLine";
 import StatusPage from "../pages/StatusPage";
+import Error from "../components/error/Error";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ export const router = createBrowserRouter([
             path:"/status",
             element:<StatusPage/>
         }
-    ]
+    ],
+    errorElement:<Error/>
   },
 ]);

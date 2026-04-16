@@ -94,5 +94,128 @@
     "bio": "Study partner for exams. Very focused and motivating.",
     "goal": 14,
     "next_due_date": "2025-07-23"
+  },
+
+
+
+  {
+    "id": 9,
+    "name": "Rakib Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "rakib.hossain@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["college", "classmate"],
+    "bio": "Shared many classes together. Always fun to hang out during breaks.",
+    "goal": 10,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 10,
+    "name": "Jannatul Ferdous",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "jannatul.ferdous@gmail.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["school", "best friend"],
+    "bio": "Best friend from school life. Knows all my secrets.",
+    "goal": 14,
+    "next_due_date": "2025-07-17"
+  },
+  {
+    "id": 11,
+    "name": "Shakib Al Mahmud",
+    "picture": "https://randomuser.me/api/portraits/men/65.jpg",
+    "email": "shakib.mahmud@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["office", "team mate"],
+    "bio": "Worked together in a startup project. Very innovative thinker.",
+    "goal": 12,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 12,
+    "name": "Riya Das",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "riya.das@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["gym", "yoga partner"],
+    "bio": "We attend yoga sessions together. Helps me stay calm and focused.",
+    "goal": 7,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 13,
+    "name": "Mahmudul Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "email": "mahmudul.hasan@gmail.com",
+    "days_since_contact": 21,
+    "status": "overdue",
+    "tags": ["university", "lab partner"],
+    "bio": "Lab partner in university. Great at hardware and circuits.",
+    "goal": 14,
+    "next_due_date": "2025-07-14"
+  },
+  {
+    "id": 14,
+    "name": "Farhana Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/18.jpg",
+    "email": "farhana.rahman@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin who always motivates me in tough times.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 15,
+    "name": "Imran Khan",
+    "picture": "https://randomuser.me/api/portraits/men/83.jpg",
+    "email": "imran.khan@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["sports", "cricket"],
+    "bio": "We play cricket together every weekend.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 16,
+    "name": "Sabrina Islam",
+    "picture": "https://randomuser.me/api/portraits/women/30.jpg",
+    "email": "sabrina.islam@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["university", "club member"],
+    "bio": "Met in university club activities. Very energetic and social.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 17,
+    "name": "Hasib Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/men/19.jpg",
+    "email": "hasib.chowdhury@gmail.com",
+    "days_since_contact": 17,
+    "status": "overdue",
+    "tags": ["gaming", "discord friend"],
+    "bio": "Gaming partner on Discord. We play FPS games together.",
+    "goal": 14,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 18,
+    "name": "Nabila Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/48.jpg",
+    "email": "nabila.sultana@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["neighbor"],
+    "bio": "Neighbor and childhood friend. Very kind and friendly.",
+    "goal": 7,
+    "next_due_date": "2025-07-27"
   }
 ]

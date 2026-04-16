@@ -19,7 +19,7 @@ const HomePage = () => {
         <div className='my-20'>
             <Bannar />
             <BannarCard />
-            <div className='grid mg:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
                 {
                     data.map((friend) => {
                         return <FriendCard key={friend.id} friend={friend} />

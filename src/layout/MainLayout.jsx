@@ -10,7 +10,7 @@ const MainLayout = () => {
                 <Navbar />
             </div>
             <div className='bg-gray-50'>
-                <div className='container mx-auto '>
+                <div className='container mx-auto  md:px-0'>
                     <Outlet />
                 </div>
             </div>

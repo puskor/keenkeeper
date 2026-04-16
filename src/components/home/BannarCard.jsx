@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannarCard = () => {
     return (
-        <div className='grid mg:grid-cols-2 lg:grid-cols-4 gap-5 border-b pb-10 border-gray-200'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-5 border-b pb-10 border-gray-200'>
             <div className='card bg-base-200 border-t border-gray-200 shadow-sm text-center py-6'>
                 <h1 className='text-[32px] font-semibold'>10</h1>
                 <p className='text-[#64748B]'>Total friends</p>

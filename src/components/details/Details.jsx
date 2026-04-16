@@ -16,7 +16,11 @@ const Details = () => {
 
     const { recording } = useContext(FriendContext)
 
-
+    const getCurrentDateTime = () => {
+        const now = new Date();
+        const date = now.toLocaleDateString();  
+        return `${date} `;
+    };
 
     // console.log(expectFriend)
     const { name, picture, status, bio, tags, days_since_contact, next_due_date, goal } = expectFriend;
@@ -24,7 +28,7 @@ const Details = () => {
     const call = () => {
         const obj = {
             item: "Call",
-            date: "33-44-44",
+            date: getCurrentDateTime(),
             name: name
         }
         recording(obj)
@@ -32,15 +36,15 @@ const Details = () => {
     const text = () => {
         const obj = {
             item: "Text",
-            date: "33-44-44",
+            date: getCurrentDateTime(),
             name: name
         }
         recording(obj)
-    }    
+    }
     const meetup = () => {
         const obj = {
             item: "Meetup",
-            date: "33-44-44",
+            date: getCurrentDateTime(),
             name: name
         }
         recording(obj)
