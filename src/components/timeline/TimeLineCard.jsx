@@ -5,7 +5,7 @@ import video from "../../assets/image/video.png"
 import call from "../../assets/image/call.png"
 
 const TimeLineCard = (items) => {
-    console.log(items)
+    // console.log(items)
 
     return (
         <div className='mt-2'>

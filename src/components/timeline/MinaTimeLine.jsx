@@ -6,13 +6,19 @@ import EmptyCard from '../error/EmptyCard';
 
 const MinaTimeLine = () => {
 
-    const { record } = useContext(FriendContext)
+    const { record,sortBy } = useContext(FriendContext)
+
+    console.log(sortBy)
+
+    const filteredData = sortBy
+    ? record.filter(item => item.item === sortBy)
+    : record
 
     return (
         <div>
             <TimeLineHeader />
             {
-                record.length >0 ?record.map((items,index) => <TimeLineCard key={index} item={items}/>) :<EmptyCard/>
+                filteredData.length > 0 ? <div> {filteredData.map((items,index) => <TimeLineCard key={index} item={items} />)} </div> : <EmptyCard />
             }
         </div>
     );

@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { FriendContext } from '../../context/provider';
 
 const TimeLineHeader = () => {
+
+    const {sortByName} = useContext(FriendContext)
     return (
         <div>
             <h1 className='text-[48px] font-bold'>Timeline </h1>
             <div className='my-6'>
                 <select defaultValue="Server location" className="select select-neutral">
-                    <option disabled={true}>Server location</option>
-                    <option>North America</option>
-                    <option>EU west</option>
-                    <option>South East Asia</option>
+                    <option onClick={()=>sortByName("")} >Time</option>
+                    <option onClick={()=>sortByName("Call")} >Call</option>
+                    <option onClick={()=>sortByName("Text")} >Text</option>
+                    <option onClick={()=>sortByName("Meeting")} >Meeting</option>
                 </select>
             </div>
         </div>
