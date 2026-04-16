@@ -23,7 +23,7 @@ const Details = () => {
 
     const call = () => {
         const obj = {
-            item: "call",
+            item: "Call",
             date: "33-44-44",
             name: name
         }
@@ -31,7 +31,7 @@ const Details = () => {
     }
     const text = () => {
         const obj = {
-            item: "text",
+            item: "Text",
             date: "33-44-44",
             name: name
         }
@@ -39,7 +39,7 @@ const Details = () => {
     }    
     const meetup = () => {
         const obj = {
-            item: "meetup",
+            item: "Meetup",
             date: "33-44-44",
             name: name
         }

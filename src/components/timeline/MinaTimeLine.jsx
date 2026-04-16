@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import TimeLineHeader from './TimeLineHeader';
 import TimeLineCard from './TimeLineCard';
+import { FriendContext } from '../../context/provider';
 
 const MinaTimeLine = () => {
+
+    const { record } = useContext(FriendContext)
+
     return (
         <div>
-            <TimeLineHeader/>
-            <TimeLineCard/>
+            <TimeLineHeader />
+            {
+                record.map((items) => <TimeLineCard item={items}/>)
+            }
             
+
         </div>
     );
 };

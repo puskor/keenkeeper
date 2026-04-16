@@ -7,9 +7,9 @@ const Provider = ({children}) => {
 
     const recording =(expectFriend)=>{
         setRecord([...record,expectFriend])
-        {
-            record.map((item)=>console.log(item));
-        }
+        // {
+        //     record.map((item)=>console.log(item))
+        // }
         console.log("this is recording function")
         
     }
