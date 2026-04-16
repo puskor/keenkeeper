@@ -7,7 +7,7 @@ import { Legend, Pie, PieChart, Tooltip } from 'recharts';
 
 const Chart = () => {
     const { record } = useContext(FriendContext)
-    console.log(record)
+    // console.log(record)
     const Call = record.filter(item => item.item === "Call")
     const Text = record.filter(item => item.item === "Text")
     const Meeting = record.filter(item => item.item === "Meetup")

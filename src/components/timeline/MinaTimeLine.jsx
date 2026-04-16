@@ -8,7 +8,7 @@ const MinaTimeLine = () => {
 
     const { record,sortBy } = useContext(FriendContext)
 
-    console.log(sortBy)
+    // console.log(sortBy)
 
     const filteredData = sortBy
     ? record.filter(item => item.item === sortBy)
