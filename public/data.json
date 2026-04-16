@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Arif Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "arif.hasan@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "We studied CSE together. Always helped me with algorithms and late-night coding sessions.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat.jahan@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["school", "good friend"],
+    "bio": "Friend from school days. We still talk about life goals and career plans.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 3,
+    "name": "Rahim Uddin",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "rahimuddin@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "Met at the gym. We push each other to stay consistent and healthy.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 4,
+    "name": "Sadia Karim",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "sadia.karim@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["university", "group project"],
+    "bio": "Worked together on multiple projects. Very creative and hardworking.",
+    "goal": 15,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 5,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/73.jpg",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["office", "colleague"],
+    "bio": "Colleague from my internship. We often discuss tech trends and startups.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 6,
+    "name": "Mim Akter",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "mim.akter@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["family friend"],
+    "bio": "Family friend since childhood. Always supportive and caring.",
+    "goal": 7,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 7,
+    "name": "Fahim Rahman",
+    "picture": "https://randomuser.me/api/portraits/men/27.jpg",
+    "email": "fahim.rahman@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["gaming", "online friend"],
+    "bio": "Met through online gaming. We still play and chat on weekends.",
+    "goal": 14,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 8,
+    "name": "Priya Sen",
+    "picture": "https://randomuser.me/api/portraits/women/36.jpg",
+    "email": "priya.sen@gmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["university", "study partner"],
+    "bio": "Study partner for exams. Very focused and motivating.",
+    "goal": 14,
+    "next_due_date": "2025-07-23"
+  }
+]
