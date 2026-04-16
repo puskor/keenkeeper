@@ -27,7 +27,7 @@ const Details = () => {
     const { name, picture, status, bio, tags, days_since_contact, next_due_date, goal } = expectFriend;
 
     const call = () => {
-        toast.success("Calling successfully")
+        toast.success(`Call with ${name}`)
         const obj = {
             item: "Call",
             date: getCurrentDateTime(),
@@ -36,7 +36,7 @@ const Details = () => {
         recording(obj)
     }
     const text = () => {
-        toast.success("Text successfully")
+        toast.success(`Text with ${name}`)
 
         const obj = {
             item: "Text",
@@ -46,8 +46,7 @@ const Details = () => {
         recording(obj)
     }
     const meetup = () => {
-        toast.success("Meeting successfully")
-
+        toast.success(`Meetup with ${name}`)
         const obj = {
             item: "Meetup",
             date: getCurrentDateTime(),
