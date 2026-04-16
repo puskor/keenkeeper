@@ -14,7 +14,7 @@ const HomePage = () => {
         }
         loadData()
     }, [])
-    console.log(data.length)
+    // console.log(data.length)
     return (
         <div className='my-20'>
             <Bannar />

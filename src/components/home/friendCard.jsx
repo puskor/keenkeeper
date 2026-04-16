@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const FriendCard = ({ friend }) => {
-    console.log(friend)
+    // console.log(friend)
     const { name,picture, status, tags, days_since_contact } = friend
     return (
         <Link to={`/${friend.id}`} >
