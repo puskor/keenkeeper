@@ -1,9 +1,11 @@
 import React from 'react';
+import Chart from '../components/chart/Chart';
+import MainChart from '../components/chart/MainChart';
 
 const StatusPage = () => {
     return (
         <div>
-            <h2>This is status page</h2>
+            <MainChart/>
         </div>
     );
 };

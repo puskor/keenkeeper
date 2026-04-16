@@ -19,7 +19,7 @@ const Provider = ({ children }) => {
         // {
         //     record.map((item)=>console.log(item))
         // }
-        console.log("this is recording function")
+        // console.log("this is recording function")
 
     }
 

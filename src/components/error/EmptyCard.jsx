@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const EmptyCard = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100">
+        <div className="py-10 flex items-center justify-center bg-gray-100">
             <div className="bg-white shadow-lg rounded-2xl p-8 text-center max-w-sm w-full">
 
                 <div className="text-6xl mb-4">📭</div>
@@ -18,7 +18,7 @@ const EmptyCard = () => {
 
                 <Link to={"/"}>
                     <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg transition">
-                        Add New
+                        Go Home
                     </button>
                 </Link>
             </div>

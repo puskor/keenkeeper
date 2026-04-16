@@ -6,7 +6,7 @@ import { FriendContext } from '../context/provider';
 
 const HomePage = () => {
 
-    const {setCardLength} = useContext(FriendContext)
+    const { setCardLength } = useContext(FriendContext)
 
     const [data, setData] = useState([])
     useEffect(() => {
@@ -14,11 +14,13 @@ const HomePage = () => {
             const res = await fetch("/data.json")
             const data = await res.json()
             setData(data);
+            setCardLength(data.length)
+
         }
         loadData()
     }, [])
-    
-    setCardLength(data.length)
+
+
 
     // console.log(data.length)
     return (
