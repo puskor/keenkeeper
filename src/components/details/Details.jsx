@@ -58,7 +58,7 @@ const Details = () => {
 
     return (
         <div className='my-20  md:flex gap-6'>
-            <div className='w-[30%]'>
+            <div className='md:w-[30%]'>
                 <div className='card bg-base-200 border-t border-gray-200 shadow-sm text-center py-6 flex flex-cols items-center space-y-1'>
                     <img className='h-15 w-15 rounded-full border-2' src={picture} alt="" />
                     <h1 className='text-[20px] font-semibold'>{name}</h1>
@@ -79,16 +79,16 @@ const Details = () => {
             <div className='w-full'>
                 <div className=' space-y-3'>
                     <div className='grid grid-cols-3 gap-5 '>
-                        <div className='text-center card  bg-base-100 shadow-sm border-t border-gray-100 w-full py-8'>
-                            <h1 className='text-[30px] font-semibold'>{days_since_contact}</h1>
+                        <div className='text-center card  bg-base-100 shadow-sm border-t border-gray-100 w-full py-5 md:py-8'>
+                            <h1 className='md:text-[30px] font-semibold'>{days_since_contact}</h1>
                             <p className='text-[#64748B]'>Days Since Contact</p>
                         </div>
-                        <div className='text-center card  bg-base-100 shadow-sm border-t border-gray-100 w-full py-8'>
-                            <h1 className='text-[30px] font-semibold'>{goal}</h1>
+                        <div className='text-center card  bg-base-100 shadow-sm border-t border-gray-100 w-full py-5 md:py-8'>
+                            <h1 className='md:text-[30px] font-semibold'>{goal}</h1>
                             <p className='text-[#64748B]'>Goal (Days)</p>
                         </div>
-                        <div className='text-center card  bg-base-100 shadow-sm border-t border-gray-100 w-full py-8'>
-                            <h1 className='text-[30px] font-semibold'>{next_due_date}</h1>
+                        <div className='text-center card  bg-base-100 shadow-sm border-t border-gray-100 w-full py-5 md:py-8'>
+                            <h1 className='md:text-[30px] font-semibold'>{next_due_date}</h1>
                             <p className='text-[#64748B]'>Next Due</p>
                         </div>
                     </div>

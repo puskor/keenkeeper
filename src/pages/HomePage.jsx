@@ -7,6 +7,7 @@ import { FriendContext } from '../context/provider';
 const HomePage = () => {
 
     const { setCardLength } = useContext(FriendContext)
+    const [loading, setLoading] = useState(true)
 
     const [data, setData] = useState([])
     useEffect(() => {
@@ -15,10 +16,18 @@ const HomePage = () => {
             const data = await res.json()
             setData(data);
             setCardLength(data.length)
-
+            setLoading(false)
         }
         loadData()
     }, [])
+
+    if (loading) {
+        return (
+            <div className="flex justify-center items-center h-[300px]">
+                <span className="loading loading-dots loading-xl"></span>
+            </div>
+        )
+    }
 
 
 
