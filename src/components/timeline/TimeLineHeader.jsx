@@ -12,7 +12,7 @@ const TimeLineHeader = () => {
                     <option onClick={()=>sortByName("")} >Time</option>
                     <option onClick={()=>sortByName("Call")} >Call</option>
                     <option onClick={()=>sortByName("Text")} >Text</option>
-                    <option onClick={()=>sortByName("Meeting")} >Meeting</option>
+                    <option onClick={()=>sortByName("Meetup")} >Meeting</option>
                 </select>
             </div>
         </div>

@@ -6,6 +6,7 @@ import { useLoaderData, useParams } from 'react-router';
 import { MdDeleteOutline, MdOutlineNotifications } from 'react-icons/md';
 import { PiJarLabelDuotone } from 'react-icons/pi';
 import { FriendContext } from '../../context/provider';
+import { toast } from 'react-toastify';
 
 
 const Details = () => {
@@ -26,6 +27,7 @@ const Details = () => {
     const { name, picture, status, bio, tags, days_since_contact, next_due_date, goal } = expectFriend;
 
     const call = () => {
+        toast.success("Calling successfully")
         const obj = {
             item: "Call",
             date: getCurrentDateTime(),
@@ -34,6 +36,8 @@ const Details = () => {
         recording(obj)
     }
     const text = () => {
+        toast.success("Text successfully")
+
         const obj = {
             item: "Text",
             date: getCurrentDateTime(),
@@ -42,6 +46,8 @@ const Details = () => {
         recording(obj)
     }
     const meetup = () => {
+        toast.success("Meeting successfully")
+
         const obj = {
             item: "Meetup",
             date: getCurrentDateTime(),

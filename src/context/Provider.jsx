@@ -6,7 +6,7 @@ const Provider = ({ children }) => {
     const [record, setRecord] = useState([])
     // console.log(record, "record")
     const [sortBy, setSortBy] = useState("")
-
+    const [cardLength,setCardLength] = useState()
 
     const sortByName = (name)=>{
         setSortBy(name)
@@ -30,7 +30,9 @@ const Provider = ({ children }) => {
         recording,
         sortByName,
         sortBy, 
-        setSortBy
+        setSortBy,
+        cardLength,
+        setCardLength
 
     }
     return <FriendContext.Provider value={data}>{children}</FriendContext.Provider>
