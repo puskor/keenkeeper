@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import FriendCard from './friendCard';
-import { FriendContext } from '../../context/provider';
+import { FriendContext } from '../../context/Provider';
 
 const BannarCard = () => {
     const {cardLength} = useContext(FriendContext);

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Bannar from '../components/home/Bannar';
 import BannarCard from '../components/home/BannarCard';
 import FriendCard from '../components/home/friendCard';
-import { FriendContext } from '../context/provider';
+import { FriendContext } from '../context/Provider';
 
 const HomePage = () => {
 

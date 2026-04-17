@@ -5,7 +5,7 @@ import videoLogo from "../../assets/image/video.png"
 import { useLoaderData, useParams } from 'react-router';
 import { MdDeleteOutline, MdOutlineNotifications } from 'react-icons/md';
 import { PiJarLabelDuotone } from 'react-icons/pi';
-import { FriendContext } from '../../context/provider';
+import { FriendContext } from '../../context/Provider';
 import { toast } from 'react-toastify';
 
 

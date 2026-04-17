@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { FriendContext } from '../../context/provider';
+import { FriendContext } from '../../context/Provider';
 
 const TimeLineHeader = () => {
 

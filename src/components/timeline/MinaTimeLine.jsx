@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import TimeLineHeader from './TimeLineHeader';
 import TimeLineCard from './TimeLineCard';
-import { FriendContext } from '../../context/provider';
+import { FriendContext } from '../../context/Provider';
 import EmptyCard from '../error/EmptyCard';
 
 const MinaTimeLine = () => {
